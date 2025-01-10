@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>506</width>
+    <height>577</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QMainWindow {
+    background-color: rgba(48, 56, 67, 255); /* Arka plan rengi */
+}</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QFrame" name="frame">
+    <property name="geometry">
+     <rect>
+      <x>-10</x>
+      <y>352</y>
+      <width>521</width>
+      <height>171</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QFrame {
+    background-color: rgb(48, 56, 67, 255); /* Arka plan rengi */
+    border: 2px solid rgb(48, 56, 67, 255); /* Çerçeve rengi */
+    border-radius: 10px; /* Köşe yuvarlatma */
+}</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::Shape::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Shadow::Raised</enum>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <item>
+      <widget class="QPushButton" name="pushButton_CheckIn">
+       <property name="font">
+        <font>
+         <pointsize>-1</pointsize>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton {
+    background-color: rgb(204, 153, 0); /* Koyu sarı arka plan */
+    color: white; /* Yazı rengi */
+    border: 2px solid rgb(153, 115, 0); /* Çerçeve rengi */
+    border-radius: 10px; /* Köşe yuvarlatma */
+    font-size: 16px;
+    padding: 8px 16px;
+}
+
+QPushButton:hover {
+    background-color: rgb(230, 179, 0); /* Hover sırasında biraz daha açık koyu sarı */
+    border: 2px solid rgb(179, 128, 0); /* Hover sırasında çerçeve rengi */
+}
+
+QPushButton:pressed {
+    background-color: rgb(179, 128, 0); /* Basılı tutarken daha koyu bir sarı */
+    border: 2px solid rgb(153, 102, 0); /* Basılı tutarken çerçeve rengi */
+}
+</string>
+       </property>
+       <property name="text">
+        <string>Check In</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pushButton_CheckOut">
+       <property name="font">
+        <font>
+         <pointsize>-1</pointsize>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton {
+    background-color: rgb(204, 153, 0); /* Koyu sarı arka plan */
+    color: white; /* Yazı rengi */
+    border: 2px solid rgb(153, 115, 0); /* Çerçeve rengi */
+    border-radius: 10px; /* Köşe yuvarlatma */
+    font-size: 16px;
+    padding: 8px 16px;
+}
+
+QPushButton:hover {
+    background-color: rgb(230, 179, 0); /* Hover sırasında biraz daha açık koyu sarı */
+    border: 2px solid rgb(179, 128, 0); /* Hover sırasında çerçeve rengi */
+}
+
+QPushButton:pressed {
+    background-color: rgb(179, 128, 0); /* Basılı tutarken daha koyu bir sarı */
+    border: 2px solid rgb(153, 102, 0); /* Basılı tutarken çerçeve rengi */
+}
+</string>
+       </property>
+       <property name="text">
+        <string>Check Out</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pushButton_Extra">
+       <property name="font">
+        <font>
+         <pointsize>-1</pointsize>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton {
+    background-color: rgb(204, 153, 0); /* Koyu sarı arka plan */
+    color: white; /* Yazı rengi */
+    border: 2px solid rgb(153, 115, 0); /* Çerçeve rengi */
+    border-radius: 10px; /* Köşe yuvarlatma */
+    font-size: 16px;
+    padding: 8px 16px;
+}
+
+QPushButton:hover {
+    background-color: rgb(230, 179, 0); /* Hover sırasında biraz daha açık koyu sarı */
+    border: 2px solid rgb(179, 128, 0); /* Hover sırasında çerçeve rengi */
+}
+
+QPushButton:pressed {
+    background-color: rgb(179, 128, 0); /* Basılı tutarken daha koyu bir sarı */
+    border: 2px solid rgb(153, 102, 0); /* Basılı tutarken çerçeve rengi */
+}
+</string>
+       </property>
+       <property name="text">
+        <string>Extra</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>0</y>
+      <width>491</width>
+      <height>341</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="resource.qrc">:/images/2.jpg</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>506</width>
+     <height>25</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources>
+  <include location="resource.qrc"/>
+ </resources>
+ <connections/>
+</ui>

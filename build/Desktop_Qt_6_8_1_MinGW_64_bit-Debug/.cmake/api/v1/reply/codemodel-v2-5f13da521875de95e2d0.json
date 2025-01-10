@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-c3342a938cadd4b2179b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "QTHotel_Management",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "QTHotel_Management::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-QTHotel_Management-Debug-676543addd05ab5a339c.json",
+					"name" : "QTHotel_Management",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "QTHotel_Management_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-QTHotel_Management_autogen-Debug-d89926c63a8b9c45ec63.json",
+					"name" : "QTHotel_Management_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "QTHotel_Management_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-QTHotel_Management_autogen_timestamp_deps-Debug-51a2e854c092dd2d2744.json",
+					"name" : "QTHotel_Management_autogen_timestamp_deps",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/Limonist/Desktop/QTHotel_Management/QTHotel_Management/build/Desktop_Qt_6_8_1_MinGW_64_bit-Debug",
+		"source" : "C:/Users/Limonist/Desktop/QTHotel_Management/QTHotel_Management"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}
